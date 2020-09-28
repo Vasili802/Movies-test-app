@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MoviesTestApp</string>
+    <string name="title">Title</string>
+    <string name="year">Year</string>
+    <string name="search">Search</string>
+    <string name="previous_searches">Previous Searches</string>
+    <string name="error_message">Something went wrong</string>
+
+    <string-array name="types">
+        <item>movie</item>
+        <item>series</item>
+        <item>episode</item>
+    </string-array>
+</resources>

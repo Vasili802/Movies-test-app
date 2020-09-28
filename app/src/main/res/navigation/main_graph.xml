@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.vasili.moviestestapp.search.SearchFragment"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/fragmentResults"
+        android:name="com.vasili.moviestestapp.results.ResultsFragment"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/fragmentPreviousSearches"
+        android:name="com.vasili.moviestestapp.previous.PreviousSearchesFragment"
+        tools:layout="@layout/fragment_previous_searches" />
+
+</navigation>
